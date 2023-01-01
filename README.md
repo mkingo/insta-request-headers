@@ -19,7 +19,7 @@ git clone https://github.com/mkingo/insta-request-headers && cd insta-request-he
 ```
 npm install
 ```
-- run the server.js file for connecting with the database in your local machine
+- run the server.js file for connecting with the database in your local machine and where database is named testDB and collection is named headers.
 
 ```
 node ./server.js
