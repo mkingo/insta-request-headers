@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Humanitas - Intern Project",
+    "description": "Chrome extension for Interns - Instagram Headers",
+    "version": "3.0.1",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "options_page": "settings/settings.html",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking"
+      ],
+    "host_permissions": [
+      "https://instagram.com/*"
+      ],
+ 
+    "background": {
+        "service_worker": "background.js"
+    }
+}
